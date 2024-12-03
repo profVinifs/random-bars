@@ -11,4 +11,7 @@ function setup() {
   rect((24+20+24+20+24), 0, 20, altura[2])
   rect((24+20+24+20+24+20+24), 0, 20, altura[3])
 }
+function refresh(){
+  window.location.reload()
+}
 
